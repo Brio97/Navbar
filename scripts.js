@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const href = this.getAttribute("href");
   
         // Prevent the link from navigating to the href
-        event.preventDefault();
+        e.preventDefault();
   
         // Trigger the click event for the link
         this.click();
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
         var href = this.getAttribute("href");
   
         // Prevent the link from navigating to the href
-        event.preventDefault();
+        e.preventDefault();
   
         // Highlight the active link
         var activeLink = nav.querySelector("a.active");
