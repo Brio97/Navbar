@@ -1,0 +1,55 @@
+/* CSS to style the navigation bar */
+nav {
+    background-color: #222;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  
+  nav a:hover {
+    background-color: #5eff00;
+  }
+  
+  nav .dropdown {
+    display: none;
+    position: absolute;
+    background-color: #444;
+  }
+  
+  nav li:hover .dropdown {
+    display: block;
+  }
+  
+  nav .dropdown li {
+    display: block;
+  }
+  
+  nav .dropdown a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  
+  nav .dropdown a:hover {
+    background-color: #2bfd0150;
+  }
